@@ -1,0 +1,172 @@
+/* 首页样式 */
+.experience-container{
+	width: 100%;
+	background: #fff;
+	padding-bottom: 20px;
+}
+.experience-container .experience-title{ 
+	text-align: center;
+}
+
+.experience-container .experience-title h3{font-weight: bold;font-size: 26px;color: #404040;height:60px;}
+.experience-container .experience-title p{font-size: 18px;color: #727272;margin-bottom: 65px;}
+
+.items-bg-public{
+	width: 100%;
+	cursor: pointer;
+	height: 56px;
+	text-align: center;
+	line-height: 46px;
+	background-size:cover;
+	color: #fff;
+	font-size: 20px;
+}
+.items-bg-public a{
+	color: #fff;
+}
+.item-bg-content-1{ background: url(../images/items-btn.png) no-repeat center; }
+.item-bg-content-2{ background: url(../images/items-btn.png) no-repeat center; }
+.item-bg-content-3{ background: url(../images/items-btn.png) no-repeat center; }
+.item-bg-content-4{ background: url(../images/items-btn.png) no-repeat center; }
+
+.experience-container .item-pay-title{
+	text-align: center;
+	font-size: 22px;
+	color: #727272;
+	margin-top: 10px;
+}
+.experience-container a{display: block;}
+.experience-container a:hover{text-decoration: none;}
+.experience-container .item-pay-description{
+	font-size: 15px;
+	color: #00aeff;
+	height: 41px;
+	text-align: center;
+}
+
+.radio-group-container{
+	text-align: center;
+	height: 51px;
+}
+
+.radio-group-container input[type=radio]{
+	margin-right:5px;
+}
+
+.custom-pay-text{
+	text-align: center;
+	height: 51px;
+}
+
+.custom-pay-text input{
+	background: #e6e6e6;
+    border: 0;
+    padding: 5px;
+}
+
+.experience-container .item-pay-img-container{text-align: center;}
+
+.specification-container{
+	width: 100%;
+	height: auto;
+	background: url(../images/home-bg.png) no-repeat center;
+	background-size: cover;
+	padding-bottom: 60px;
+}
+
+.specification-title{
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.specification-title h4{
+	font-size: 36px;
+}
+
+.specification-title p{
+	font-size: 23px;
+	color: #ddd;
+}
+.specification-title .split-lines{
+	width: 100%;
+	height:30px;
+}
+.specification-title .split-lines p{
+	width:230px;
+	height:10px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.specification-container .specification-items-container{
+	width: 100%;
+	border: 1px solid #fff;
+}
+.specification-container .specification-items-container ul{padding: 0;}
+.specification-container .specification-items-container ul li:first-child{
+	background: #BB50F6;font-size:44px;font-size: 1.5rem;
+}
+.specification-container .specification-items-container ul li:last-child{border: none;height: 120px;text-align: center;}
+.specification-container .specification-items-container ul li{
+	list-style: none;
+    height: 77px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    font-size: 0.6rem;
+    line-height: 77px;
+}
+.specification-container .specification-items-container .immediately-join{
+	width: 246px;height: 60px;color: #fff;
+	text-align: center;line-height: 53px;
+	background: url(../images/login-btn.png) no-repeat center;
+	background-size: 100%;margin: 0 auto;
+}
+.specification-container .specification-items-container .immediately-join a{
+	color: #fff;display: block;font-size: 16px;
+	text-decoration: none;
+}
+
+.specification-container .core-highlights-items {
+	width: 100%;
+	background: rgba(255,255,255,.5);;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.specification-container .core-highlights-items .core-highlights-img{
+	padding: 20px;
+}
+.specification-container .core-highlights-items .core-highlights-title{
+	font-size: 20px;
+    color: #585858;
+    font-weight: bold;
+    margin-top: 19px;
+}
+.specification-container .core-highlights-items .core-highlights-desc{
+	font-size: 14px;
+    color: #fff;
+}
+
+.specification-container  .online-consultation-container{
+	width: 100%;
+    background: rgba(255,255,255,.15);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 19px;
+}
+.specification-container  .online-consultation-container .consultation-textarea{
+	color: #fff;
+}
+.specification-container  .online-consultation-container .consultation-textarea h3 a{color: #fff;}
+.core-highlights-items .color-bg-container{
+	border-radius: 50%;
+    background: hsla(0,0%,100%,.5);
+    width: 138px;
+    height: 138px;
+    margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+{
+  "port": "8080",
+  "pageList": [
+    { "name": "index", "chunks": "index" },
+    { "name": "about", "chunks": "about" },
+    { "name": "help", "chunks": "help" },
+    { "name": "appdownload-nonotroot", "chunks": "appdownload" },
+    { "name": "appdownload-opensource", "chunks": "appdownload" },
+    { "name": "appdownload-root", "chunks": "appdownload" },
+    { "name": "guide", "chunks": "guide" },
+    { "name": "api-initiate-pay", "chunks": "api-initiate-pay" },
+    { "name": "api-transaction-query", "chunks": "api-transaction-query" },
+    { "name": "install-desc", "chunks": "install-desc" },
+    { "name": "api-demo-download", "chunks": "api-demo-download" }
+  ]
+}

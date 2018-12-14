@@ -1,0 +1,183 @@
+#include("./layouts/header.html")
+<title>首页</title>
+<style>
+	.swiper-slide {
+		height:100%;
+		background:url('images/banner.png') no-repeat;
+	}
+</style>	
+<!--banner-->
+<div class="banner-container">
+	<!-- <a href="./guide.html">
+		<img src="images/banner.png" width="100%" />
+	</a> -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide blue-slide"></div>    
+		</div>
+	</div>
+</div>
+<!--/banner-->
+
+<!-- ----------Main Content-------------- -->
+<div class="main-container">
+	<!--experience-->
+	<div class="experience-container">
+		<!--title-->
+		<div class="experience-title">
+			<h3></h3>
+			<p>体验接入后您用户的付款流程，收款码会变成您的个人收款码，款项直入您支付宝微信账户，并及时回调</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="item-pay-img-container"><img src="images/items-1.png" /></div>
+					<p class="item-pay-title">五分钱体验回调</p>
+					<div class="radio-group-container">
+						<input type="radio" name="items-pay" id="dom-alipay" value="http://demo.ukafu.com/order.php?act=new&paytype=ALIPAY&homepage=true"
+						 checked />
+						<label for="dom-alipay" class="title-text-color">支付宝支付</label>
+						<input type="radio" name="items-pay" id="dom-wechat" value="http://demo.ukafu.com/order.php?act=new&paytype=WXPAY&homepage=true" />
+						<label for="dom-wechat" class="title-text-color">微信支付</label>
+					</div>
+					<div class="items-bg-public item-bg-content-1"><a href="javascript:pay();">立即支付</a></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="item-pay-img-container"><img src="images/items-2.png" /></div>
+					<p class="item-pay-title">自动生成任意金额</p>
+					<p class="item-pay-description">自动生成任意金额+随机备注演示</p>
+					<div class="items-bg-public item-bg-content-2">
+						<a href="http://demo.ukafu.com/order.php?act=new&paytype=ALIPAY&remark=true&homepage=true" target="_blank">立即支付</a>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="item-pay-img-container"><img src="images/ukafu-icon.png" /></div>
+					<p class="item-pay-title">客户端APP</p>
+					<p class="item-pay-description">完全使用您个人支付宝，微信，进行收款，真正零费率</p>
+					<div class="items-bg-public item-bg-content-3"><a href="appdownload-opensource.html">下载APP</a></div>
+				</div>
+				<div class="col-sm-3">
+					<div class="item-pay-img-container"><img src="images/client-icon.png" /></div>
+					<p class="item-pay-title">API接口。</p>
+					<p class="item-pay-description">全程HTTPS加密访问，数据零风险，防劫持，更安全</p>
+					<div class="items-bg-public item-bg-content-4"><a href="api-initiate-pay.html">立即使用</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/experience-->
+
+	<!--specification-->
+	<div class="specification-container">
+		<div class="specification-title">
+			<h4>核心亮点</h4>
+			<p>Core highlights</p>
+			<div class="split-lines">
+				<img src="images/split-line.png" />
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-sm-4">
+					<div class="core-highlights-items">
+						<div class="color-bg-container">
+							<img src="images/core-001.png" alt="" class="core-highlights-img" />
+						</div>
+						<p class="core-highlights-title">安全，便捷</p>
+						<p class="core-highlights-desc">收款直接进入您的支付宝，微信余额中</p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-4">
+					<div class="core-highlights-items">
+						<div class="color-bg-container">
+							<img src="images/core-002.png" alt="" class="core-highlights-img" />
+						</div>
+						<p class="core-highlights-title">准时，准确</p>
+						<p class="core-highlights-desc">低延时，秒级相应，严格核对订单零重复，零漏单</p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-4">
+					<div class="core-highlights-items">
+						<div class="color-bg-container">
+							<img src="images/core-003.png" alt="" class="core-highlights-img" />
+						</div>
+						<p class="core-highlights-title">高并发，高可用</p>
+						<p class="core-highlights-desc">支持多并发同时付款操作，7x24小时可用性</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="specification-title">
+			<h4>在线咨询</h4>
+			<p>Online consultation</p>
+			<div class="split-lines">
+				<img src="images/split-line.png" />
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="online-consultation-container">
+						<div class="row">
+							<div class="col-md-6" style="text-align: right;">
+								<img src="images/qq.png" />
+							</div>
+							<div class="col-md-6" style="text-align: left;">
+								<div class="consultation-textarea">
+									<h4>在线客服</h4>
+									<h3>在线客服QQ群：<a href="tencent://message/?uin=393191345&Site=ukafu&Menu=yes">393191345</a></h3>
+									<p>7x24小时在线客服QQ</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/specification-->
+</div>
+
+<!-- ----------/Main Content-------------- -->
+
+
+<script type="text/javascript">
+	function pay() {
+		var inputs = $('.radio-group-container').find('input');
+		var checkedValue = '';
+		inputs.each(function (i, d) {
+			if ($(d).is(':checked')) {
+				checkedValue = $(d).val();
+			}
+		});
+		window.open(checkedValue);
+	}
+	function custompay() {
+		var money = $('.custom-pay-text').find('input').val();
+		if (!money || !$.isNumeric(money)) return;
+		window.location.href = 'order.php?act=new&paytype=ALIPAY&money=' + money;
+	}
+
+
+	new function () {
+		var _self = this;
+		_self.width = screen.width;//设置默认最大宽度
+		_self.fontSize = 25;//默认字体大小
+		_self.widthProportion = function () {
+			var _dom = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+			return _dom;
+		};
+		_self.changePage = function () {
+			document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px");
+		}
+
+		_self.changePage();
+		window.addEventListener('resize', function () {
+			_self.width = screen.width;//设置默认最大宽度
+			_self.changePage();
+		}, false);
+	};
+
+</script>
+#include("./layouts/footer.html")

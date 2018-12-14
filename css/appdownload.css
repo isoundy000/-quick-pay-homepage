@@ -1,0 +1,77 @@
+.app-download-container{
+	width:100%;
+	height: auto;
+	background: #fff;
+	margin-bottom: 30px;
+}
+
+.app-download-container .left-area-header{
+	width: 100%;
+}
+
+.app-download-container .left-area-header .line{
+	width:230px;
+}
+.app-download-container  .left-tablist{
+	width: 100%;
+	height: auto;
+}
+.app-download-container  .left-tablist ul{padding: 0;}
+.app-download-container  .left-tablist ul li{ list-style: none;position: relative;}
+.app-download-container  .left-tablist ul li:last-child{border-bottom: 1px solid #d6d6d6}
+.app-download-container  .left-tablist ul li{
+	width: 100%;height: 40px;border: 1px solid #d6d6d6;
+	text-indent: 37px;line-height: 40px;
+	border-bottom: 0;
+}
+.app-download-container  .left-tablist ul li a{
+	color: #000;
+}
+
+.app-download-container  .left-tablist ul li img{
+	position: absolute;
+	right: 19px;
+    top: 14px;
+}
+
+.app-download-container .right-header .line{
+	width: 100%;
+	height: 2px;
+    background: #757575;
+}
+.app-download-container .qrcode-container{
+	text-align: left;
+}
+.app-download-container .qrcode-container img{
+	width: 272px;
+}
+.app-download-container .qrcode-container .app-download-title{font-size: 20px;font-weight: bold;}
+
+.app-download-container .relevant-download a{
+	background: #5075ff;
+    display: inline-block;
+    padding: 4px 48px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+
+.tab-text-active{
+	color: #5075FF!important;
+}
+.items-bg-public{
+	width: 100%;
+	cursor: pointer;
+	height: 56px;
+	text-align: center;
+	line-height: 46px;
+	background-size:cover;
+	color: #fff;
+	font-size: 20px;
+}
+.items-bg-public a{
+	color: #fff;
+}
+
+.item-bg-content-3{ background: url(../images/items-btn.png) no-repeat center; }
+#markdown-render-contianer{word-break: break-all}

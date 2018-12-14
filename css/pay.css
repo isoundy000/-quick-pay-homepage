@@ -1,0 +1,40 @@
+body,
+		.body {
+			background: #F4F2F4;
+		}
+
+		.pay-complete {
+			font-size: 20px;
+			color: #ED6D02;
+			padding-top: 30px;
+		}
+
+		.mod-ct {
+			background: none;
+			border: 0;
+		}
+
+		.mod-title {
+			background: #ED6D02;
+			color: #fff;
+		}
+
+		.tip-text {
+			height: 25px;
+			background: url(../images/ware.png) 0px -35px repeat-x;
+			background-size: 47px;
+		}
+
+		.qrcode-img-area {
+			background: #fff;
+			padding-bottom: 28px;
+			padding-top: 66px;
+		}
+
+		body h1 {
+			margin-top: 0;
+		}
+		.order-detail{height: 51px;background: #fff;}
+		body, div, h1{
+			padding:0
+		}

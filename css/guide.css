@@ -1,0 +1,35 @@
+.guide-container .linenum{
+	font-size: 107px;
+    position: absolute;
+    left: -1px;
+    top: 11px;
+    color: #05BDF1;
+}
+
+.guide-container  .guide-itms{
+    position: relative;
+    border-bottom: 1px solid #05bdf1;
+    margin-top: 16px;
+}
+
+.guide-container .guide-itms-content{
+	padding-left: 70px;
+    box-sizing: border-box;    
+    color: #05BDF1;
+}
+.guide-container .guide-itms:last-child{border: 0}
+.guide-container .guide-two-title{
+	text-align: center;margin-top: 10px;
+	color: #000;
+}
+
+.guide-container .remark{color: red;text-align: center;font-size: 16px;margin-top: 10px;}
+.remark-button{text-align: center;font-size: 16px;margin-top: 10px;}
+.guide-container .guide-itms .guide3{
+	width: 100%;
+}
+
+.customer-service-area{text-align: right}
+.customer-service-area img{width: 49px;}
+.customer-service-area span{color: #5075ff;}
+.guide-container .guide-itms p.guide-two-title{color: #313131}

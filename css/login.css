@@ -1,0 +1,108 @@
+body{
+	background: #000;	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.login-container{
+	max-width: 680px;
+	margin: 91px auto;
+}
+.login-container .login-logo-container{text-align: center;padding: 5px;}
+.login-container .login-logo-container img{
+	max-width: 100%;		
+}
+
+.login-container .login-form-container{
+	max-width: 461px;
+	margin: 60px auto;
+	position: relative;
+}
+.login-form-container .login-title{text-align: center;color: #fff;font-size: 18px;}
+.login-form-container .login-border-bar-top{
+	height: 3px;width: 100%;background: url(../images/login-form-bar.png) repeat-x;
+	margin-top: 30px;
+    margin-bottom: 27px;
+}
+
+.form-footer{color: #fff;max-width: 281px;text-align: center;margin: 0 auto;}
+.form-footer span:first-child{float: left;}
+.form-footer span:last-child{float: right;}
+.form-footer span a{color: #fff;}
+.form-container {color: #fff;text-align: center;}
+.form-container .form-items{margin-top: 10px;}
+.form-container input[type=radio]{
+	text-align: right;
+}
+.form-container input[type=text],input[type=password]{
+	border: 0;
+	border-radius: 20px;
+    padding-left: 9px;
+    background: #c7c6c6;
+    height: 39px;
+    width: 267px;
+}
+
+.form-container .form-submit{
+	width: 304px;
+    height: 58px;
+    background: url(../images/login-btn.png) no-repeat center;
+    background-size: 100%;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 46px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form-container .form-items span{font-size: 17px;}
+
+.login-form-container .login-border-bar-bottom{
+	height: 3px;width: 100%;background: url(../images/login-form-bar.png) repeat-x;
+	margin-top: 18px;
+    margin-bottom: 16px;
+}
+.send-verification-code-container input{width: 155px!important;}
+.send-verification-code{
+	background: url(../images/banner-btn-active.png) no-repeat;
+    float: right;
+    width: 100px;
+    height: 39px;
+    background-size: 100%;
+    text-align: center;
+    background-position: 0 9px;
+    line-height: 38px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.backto-login{
+	width: 86px;
+	height: 30px;
+	float: left;
+	margin-top: 15px;
+	position: absolute;
+    left: 11px;
+    top: 0;
+}
+
+.backto-login a{color: #fff;}
+.send-verification-code-container{
+	position: relative;
+}
+.send-verification-code-container .verification-inner-container{
+	max-width: 332px;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.main-login-container{
+	background: url(../images/login-bg.png) no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 91px;
+    padding-bottom: 18px;	
+}
